@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,11 +7,8 @@
     <title>Atick Israk — Portfolio</title>
     <meta name="description" content="Atick Israk — Backend Developer, Data Science enthusiast and ICT student building toward AI &amp; automation freelancing.">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230c2541'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='%23ff7a45' font-family='monospace'%3EA%3C/text%3E%3C/svg%3E">
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -217,47 +213,47 @@
             <div class="section-divider"></div>
 
             <div class="row g-4">
-                <!-- Project 1: FastAPI Patient Management -->
+                <!-- Project 1: Agriculture IoT -->
                 <div class="col-md-6 col-lg-3 hidden-left">
                     <div class="project-card">
                         <span class="sheet-tag">Sheet 01</span>
-                        <div class="project-thumb project-thumb-icon">
-                            <i class="bi bi-hospital"></i>
+                        <div class="project-thumb">
+                            <img src="assets/iot-project.png" alt="Agriculture IoT Project">
                         </div>
                         <div class="card-body">
-                            <p class="project-caption">Backend / ML</p>
-                            <h5 class="card-title">FastAPI Patient Management System</h5>
-                            <p class="card-text">A CRUD API with Pydantic validation, computed BMI &amp; risk-scoring
-                                fields, and a scikit-learn prediction endpoint. Containerized with Docker.</p>
+                            <p class="project-caption">Embedded Systems</p>
+                            <h5 class="card-title">Agriculture IoT Project</h5>
+                            <p class="card-text">A smart agriculture solution using IoT sensors to monitor soil
+                                moisture and crop health.</p>
                             <div class="card-actions">
-                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#fastapiProjectModal">
+                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#iotProjectModal">
                                     <i class="bi bi-info-circle"></i> View Details
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project 2: Thesis -->
+                <!-- Project 2: Fruit Cutting Game -->
                 <div class="col-md-6 col-lg-3 hidden-right">
                     <div class="project-card">
                         <span class="sheet-tag">Sheet 02</span>
-                        <div class="project-thumb project-thumb-icon">
-                            <i class="bi bi-translate"></i>
+                        <div class="project-thumb">
+                            <img src="assets/fruit-game.png" alt="Fruit Cutting Game">
                         </div>
                         <div class="card-body">
-                            <p class="project-caption">BSc Thesis / NLP</p>
-                            <h5 class="card-title">Hallucination Detection in Bangla RAG Q&amp;A</h5>
-                            <p class="card-text">Ongoing thesis research on detecting hallucination in
-                                Retrieval-Augmented Generation pipelines for Bangla-language question answering.</p>
+                            <p class="project-caption">Desktop / Game Dev</p>
+                            <h5 class="card-title">Fruit Cutting Game</h5>
+                            <p class="card-text">A dynamic arcade-style game built with JavaFX. Slice fruits, avoid
+                                bombs, chase a high score.</p>
                             <div class="card-actions">
-                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#thesisModal">
+                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#fruitGameModal">
                                     <i class="bi bi-info-circle"></i> View Details
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project 3 -->
+                <!-- Project 3: Shopping Cart -->
                 <div class="col-md-6 col-lg-3 hidden-left">
                     <div class="project-card">
                         <span class="sheet-tag">Sheet 03</span>
@@ -300,11 +296,104 @@
                         </div>
                     </div>
                 </div>
+                <!-- Project 5: FastAPI Patient Management -->
+                <div class="col-md-6 col-lg-3 hidden-left">
+                    <div class="project-card">
+                        <span class="sheet-tag">Sheet 05</span>
+                        <div class="project-thumb project-thumb-icon">
+                            <i class="bi bi-hospital"></i>
+                        </div>
+                        <div class="card-body">
+                            <p class="project-caption">Backend / ML</p>
+                            <h5 class="card-title">FastAPI Patient Management System</h5>
+                            <p class="card-text">A CRUD API with Pydantic validation, computed BMI &amp; risk-scoring
+                                fields, and a scikit-learn prediction endpoint. Containerized with Docker.</p>
+                            <div class="card-actions">
+                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#fastapiProjectModal">
+                                    <i class="bi bi-info-circle"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6: Thesis -->
+                <div class="col-md-6 col-lg-3 hidden-right">
+                    <div class="project-card">
+                        <span class="sheet-tag">Sheet 06</span>
+                        <div class="project-thumb project-thumb-icon">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                        </div>
+                        <div class="card-body">
+                            <p class="project-caption">BSc Thesis / ML</p>
+                            <h5 class="card-title">Cancer Detection using Machine Learning</h5>
+                            <p class="card-text">Ongoing thesis research on machine learning-based approaches for
+                                cancer detection/classification, applying core ML and DSA fundamentals.</p>
+                            <div class="card-actions">
+                                <button type="button" class="btn btn-outline-line btn-sm" data-bs-toggle="modal" data-bs-target="#thesisModal">
+                                    <i class="bi bi-info-circle"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Project Modals -->
+    <!-- IoT Project Modal -->
+    <div class="modal fade" id="iotProjectModal" tabindex="-1" aria-labelledby="iotProjectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="iotProjectModalLabel">Agriculture IoT Project — Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/iot-project.png" class="img-fluid rounded mb-3" alt="IoT Project">
+                    <p>This project automates irrigation based on real-time soil analysis.</p>
+                    <h6 class="fw-bold accent-text">Equipment Used</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-cpu"></i>Arduino (Microcontroller)</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-thermometer-half"></i>Temperature Sensor (DHT11/DHT22)</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-moisture"></i>Soil Moisture Sensor</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-droplet"></i>DC Motor / Water Pump</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-toggle-on"></i>Relay Module</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-line" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fruit Cutting Game Modal -->
+    <div class="modal fade" id="fruitGameModal" tabindex="-1" aria-labelledby="fruitGameModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fruitGameModalLabel">Fruit Cutting Game — Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/fruit-game.png" class="img-fluid rounded mb-3" alt="Fruit Cutting Game">
+                    <p>A dynamic arcade-style game developed using JavaFX. Slice fruits, avoid bombs, and chase a high score.</p>
+                    <h6 class="fw-bold accent-text">Key Features &amp; Technologies</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-window"></i>JavaFX (UI &amp; Animations)</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-diagram-3"></i>Object-Oriented Programming (OOP)</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-bullseye"></i>Collision Detection Algorithms</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-trophy"></i>Score Tracking &amp; Persistence</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-line" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FastAPI Project Modal -->
     <div class="modal fade" id="fastapiProjectModal" tabindex="-1" aria-labelledby="fastapiProjectModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -338,17 +427,16 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="thesisModalLabel">Bangla RAG Hallucination Detection — Details</h5>
+                    <h5 class="modal-title" id="thesisModalLabel">Cancer Detection using Machine Learning — Details</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>BSc thesis research focused on detecting hallucination in Retrieval-Augmented Generation
-                        (RAG) based question-answering systems for the Bangla language — an area with limited
-                        prior NLP research.</p>
+                    <p>BSc thesis research focused on machine learning-based approaches for cancer
+                        detection/classification.</p>
                     <h6 class="fw-bold accent-text">Focus Areas</h6>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-search"></i>Bangla-language RAG pipelines</li>
-                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-link-45deg"></i>Built on existing LangChain / RAG experience</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-cpu"></i>Machine learning fundamentals applied to medical data</li>
+                        <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-diagram-3"></i>Building on existing Python / scikit-learn experience</li>
                         <li class="list-group-item bg-transparent text-light border-secondary"><i class="bi bi-hourglass-split"></i>Ongoing</li>
                     </ul>
                 </div>
@@ -425,14 +513,14 @@
             <p class="mb-5 about-text">Interested in working together? Feel free to send a message.</p>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6 text-start">
-                    <form>
+                    <form id="contactForm">
                         <div class="mb-4">
                             <label class="field-label" for="contactName">Your Name</label>
-                            <input id="contactName" type="text" class="form-control blueprint-input" placeholder="Sabbir" required>
+                            <input id="contactName" type="text" class="form-control blueprint-input" placeholder="Jane Doe" required>
                         </div>
                         <div class="mb-4">
                             <label class="field-label" for="contactEmail">Reach Me At</label>
-                            <input id="contactEmail" type="email" class="form-control blueprint-input" value="it22040@mbstu.ac.bd" required readonly>
+                            <input id="contactEmail" type="email" class="form-control blueprint-input" value="israkatick@gmail.com" required readonly>
                         </div>
                         <div class="mb-4">
                             <label class="field-label" for="contactMessage">Your Message</label>
@@ -459,10 +547,7 @@
 
     <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
 
-    <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 
