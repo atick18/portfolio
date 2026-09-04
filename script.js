@@ -45,4 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
             link.addEventListener('click', () => bsCollapse.hide());
         });
     }
+    /* ---------- Contact form (mailto) ---------- */
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('contactName').value;
+            const message = document.getElementById('contactMessage').value;
+            const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
+            const body = encodeURIComponent(`${message}\n\n— ${name}`);
+            window.location.href = `mailto:israkatick@gmail.com?subject=${subject}&body=${body}`;
+        });
+    }
 });
